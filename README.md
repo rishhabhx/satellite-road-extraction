@@ -38,7 +38,7 @@ The following steps outline the implementation:
     * Resize and preprocess the data.
 
 2. **Model Definition:**
-    * Implement the hybrid architecture using the `unetBlock` function:
+    * Implement the hybrid architecture using the `unetBlock` and `Conv2dBlock` function:
         * Define the U-Net structure with encoder, decoder, and skip connections.
         * Include CNN layers for high-level feature extraction.
         * Implement feature fusion to combine U-Net and CNN features.
