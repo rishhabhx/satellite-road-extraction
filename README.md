@@ -53,6 +53,8 @@ The following steps outline the implementation:
     * Use metrics like precision, recall, F1-score, and intersection over union (IoU) to assess performance.
     * Visualize predicted masks alongside ground truth masks for qualitative evaluation.
 
+<!-- TODO: Add images to the results part -->
+
 ## Results
 
 The model achieved the following results:
