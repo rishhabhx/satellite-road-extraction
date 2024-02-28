@@ -7,10 +7,7 @@ This repository presents a deep learning model for road extraction from satellit
 * Introduction
 * Architecture
 * Implementation
-* Results
-* Usage (Optional)
 * Future Work
-* License
 
 ## Introduction
 
@@ -53,8 +50,6 @@ The following steps outline the implementation:
     - Evaluate the trained model on a separate validation or testing set.
     - Use metrics like precision, recall, F1-score, and intersection over union (IoU) to assess performance.
     - Visualize predicted masks alongside ground truth masks for qualitative evaluation.
-
-## Results
 
 
 ## Future Work
