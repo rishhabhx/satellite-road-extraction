@@ -42,13 +42,17 @@ The following steps outline the implementation:
         * Define the U-Net structure with encoder, decoder, and skip connections.
         * Include CNN layers for high-level feature extraction.
         * Implement feature fusion to combine U-Net and CNN features.
-    * Compile the model with an optimizer (e.g., Adam), loss function (e.g., binary crossentropy), and metrics (e.g., accuracy).
+    * Compile the model with `optimizer = 'Adam', loss = 'binary_crossentropy', metrics = ['accuracy']`.
 
 3. **Training:**
     * Train the model on the prepared data for a specified number of epochs. We used 83 to impliment the model.
     * Monitor training progress using metrics like loss and accuracy.
 
-4. **Evaluation:**
+4. **Testing:**
+    * Test the trained model on unseen data to assess its performance.
+    * Visualize the predicted masks alongside the ground truth masks for qualitative evaluation.
+
+5. **Evaluation:**
     * Evaluate the trained model on a separate validation or testing set.
     * Use metrics like precision, recall, F1-score, and intersection over union (IoU) to assess performance.
     * Visualize predicted masks alongside ground truth masks for qualitative evaluation.
@@ -60,7 +64,7 @@ The following steps outline the implementation:
 The model achieved the following results:
 
 * **Quantitative Results:**
-  * Achieved an F1-score of 0.85 on the DeepGlobe road extraction dataset.
+  * Achieved an F1-score of 0.65 on the DeepGlobe road extraction dataset.
   * Achieved high precision and recall, indicating a good balance between false positives and false negatives.
 
 * **Qualitative Results:**
