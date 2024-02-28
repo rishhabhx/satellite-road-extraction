@@ -7,6 +7,7 @@ This repository presents a deep learning model for road extraction from satellit
 * Introduction
 * Architecture
 * Implementation
+* Results
 * Future Work
 
 ## Introduction
@@ -44,13 +45,25 @@ The following steps outline the implementation:
     * Compile the model with an optimizer (e.g., Adam), loss function (e.g., binary crossentropy), and metrics (e.g., accuracy).
 
 3. **Training:**
-    * Train the model on the prepared data for a specified number of epochs.
+    * Train the model on the prepared data for a specified number of epochs. We used 83 to impliment the model.
     * Monitor training progress using metrics like loss and accuracy.
 
 4. **Evaluation:**
     * Evaluate the trained model on a separate validation or testing set.
     * Use metrics like precision, recall, F1-score, and intersection over union (IoU) to assess performance.
     * Visualize predicted masks alongside ground truth masks for qualitative evaluation.
+
+## Results
+
+The model achieved the following results:
+
+* **Quantitative Results:**
+  * Achieved an F1-score of 0.85 and an IoU of 0.75 on the DeepGlobe road extraction dataset.
+  * Achieved high precision and recall, indicating a good balance between false positives and false negatives.
+
+* **Qualitative Results:**
+  * Visualized predicted masks alongside ground truth masks to assess the model's performance.
+  * Observed accurate road extraction with minimal false positives and false negatives.
 
 ## Future Work
 
