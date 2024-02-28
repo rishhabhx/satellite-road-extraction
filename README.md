@@ -1,4 +1,4 @@
-# Hybrid U-Net and CNN for Road Extraction from DeepGlobe Dataset
+# Road Extraction from Satellite Images
 
 This repository presents a deep learning model for road extraction from satellite images in the DeepGlobe road extraction dataset. The model leverages a hybrid architecture that combines the strengths of U-Net and Convolutional Neural Networks (CNNs).
 
