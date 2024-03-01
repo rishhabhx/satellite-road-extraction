@@ -63,6 +63,9 @@ The following steps outline the implementation:
 
 The model achieved the following results:
 
+![image](https://github.com/otakuCoderr/satellite-road-extraction/assets/160525560/33b0065a-00a3-4a37-8af3-b45c2b38bd83)
+
+
 * **Quantitative Results:**
   * Achieved an F1-score of 0.65 on the DeepGlobe road extraction dataset.
   * Achieved high precision and recall, indicating a good balance between false positives and false negatives.
