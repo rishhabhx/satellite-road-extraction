@@ -72,7 +72,7 @@ The model achieved the following results:
 
 * **Qualitative Results:**
   * Visualized predicted masks alongside ground truth masks to assess the model's performance.
-  * Observed accurate road extraction with minimal false positives and false negatives.
+  * Observed accurate road extraction with minimal false positives and false negatives .
 
 ## Future Work
 
